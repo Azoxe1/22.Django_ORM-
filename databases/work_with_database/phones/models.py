@@ -10,4 +10,4 @@ class Phone(models.Model):
     slug = models.SlugField(max_length=2000)
 
     def __str__(self):
-        return f"{self.name}, {self.price}, {self.image}, {self.release_date}, {self.lte_exists}"
+        return f"{self.name}, {self.price}, {self.image}, {self.release_date}, {self.lte_exists}, {self.slug}"
